@@ -326,27 +326,27 @@ input[type=checkbox]{
 
     
     .main-section {
-      margin: 15em 1em 17em 1em ;
+      margin: 15em 1em 5em 1em ;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      
+      height: 100vh;
       
     }
     
     .hero {
       align-items: center;
-      
+      gap: 0.5em;
     }
 
     .h1font {
-      font-size: 2em;
-      color: #08b43c;
+      font-size: 2.3em;
     }
 
     .self {
       text-align: center;
+      
     }
 
     .top-image {

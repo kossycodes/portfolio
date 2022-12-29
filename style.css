@@ -60,9 +60,10 @@
   /* LOGO */
   
   .logo {
-  
+  color: #08b43c;
   padding-left: 2rem;
   font-size: 25px;
+  font-weight: bold;
   
   }
   
@@ -94,18 +95,16 @@
   
   }
 
+/* Hero section (first part of the website*/
+
   .main-section {
     margin: 10em 5em 5em 5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
-    
-    
-    
   }
 
-  /* Hero section (first part of the website*/
 
   .hero {
     display: flex;
@@ -129,10 +128,7 @@
   }
   
      /* Button*/
-   /*.btn{
-    margin-top: 2em;
-    width: 10em;
-   }*/
+
 
    button, input[type="submit"], input[type="reset"] {
     background: none;
@@ -330,7 +326,7 @@ input[type=checkbox]{
 
     
     .main-section {
-      margin: 10em 1em 5em 1em ;
+      margin: 15em 1em 15em 1em ;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -342,7 +338,7 @@ input[type=checkbox]{
       align-items: center;
     }
 
-    h1 {
+    .h1font {
       font-size: 2.5em;
     }
 
@@ -357,6 +353,19 @@ input[type=checkbox]{
     .about-me {
       flex-wrap: wrap-reverse;
       padding: 2em;
+    }
+
+    .about-info {
+      margin-top: 2em;
+      gap: 1em;
+    }
+
+    h2 {
+      font-size: 1.6em;
+    }
+    
+    h3 {
+      font-size: 1.6em;
     }
 
     .tech-all {
@@ -440,21 +449,7 @@ input[type=checkbox]{
   
   }
   
-  /*.dropdown {
   
-  left: 50%;
-  
-  top: 30px;
-  
-  transform: translateX(35%);
-  
-  }
-  
-  .dropdown li:hover {
-  
-  background-color: #4c9e9e;
-  
-  }*/
 
   .social {
     display: none;

@@ -326,12 +326,12 @@ input[type=checkbox]{
 
     
     .main-section {
-      margin: 15em 1em 0em 1em;
+      margin: 15em 1em 17em 1em;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      height: 100vh;
+      
       
     }
     

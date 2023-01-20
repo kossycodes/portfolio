@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -186,6 +190,7 @@
     
     
   }
+  
 
   .my-photo {
     width: 400px;
@@ -326,6 +331,7 @@ input[type=checkbox]{
     
     .main-section {
       margin: 15em 1em 17em 1em;
+      padding: 1em;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -352,9 +358,12 @@ input[type=checkbox]{
       display: none;
     }
 
+    
+
     .about-me {
       flex-wrap: wrap-reverse;
       padding: 0em;
+      
     }
 
     .about-info {

@@ -61,7 +61,6 @@
   
   .logo {
   color: #08b43c;
-  padding-left: 2rem;
   font-size: 25px;
   font-weight: bold;
   
@@ -178,7 +177,7 @@
   /*ABOUT ME SECTION*/
 
   .about-me {
-    padding: 5em;
+    padding: 1em;
     display: flex;
     justify-content: space-around;
     background-color: #252525;
@@ -355,12 +354,13 @@ input[type=checkbox]{
 
     .about-me {
       flex-wrap: wrap-reverse;
-      padding: 2em;
+      padding: 0em;
     }
 
     .about-info {
       margin-top: 2em;
       gap: 1em;
+      padding: 1em;
     }
 
     h2 {

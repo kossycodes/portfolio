@@ -18,6 +18,7 @@ html {
   background-color: #171616;
   color: white;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
   }
   
   a {
@@ -25,6 +26,10 @@ html {
   text-decoration: none;
   
   }
+
+  a { 
+    color: inherit; 
+  } 
   
   li {
   
@@ -65,7 +70,7 @@ html {
   
   .logo {
   color: #08b43c;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
   
   }
@@ -78,7 +83,7 @@ html {
   
   gap: 1em;
   
-  font-size: 18px;
+  font-size: 16px;
   
   }
   
@@ -116,14 +121,14 @@ html {
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: bold;
     
   }
 
   .self {
     color: #afafaf;
-    font-size: large;
+    font-size: 1em;
   }
 
   .hi {
@@ -214,8 +219,8 @@ html {
   }
 
   .about-info > p {
-    font-size: large;
-    line-height: 1.5em;
+    font-size: medium;
+    line-height: 1.9em;
     text-align: left;
     
     
@@ -230,7 +235,9 @@ html {
     justify-content: flex-start;
   }
   .top-techp {
-    color: #929191
+    color: #929191;
+    font-size: medium;
+    
   }
 
   h3 {
@@ -260,6 +267,7 @@ html {
   
   #tech-fa {
     font-size: 2em;
+    
   }
 
   #tech-fa:hover {
@@ -268,10 +276,163 @@ html {
 
   .tech > p {
     
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
   }
 
+  /*Projects*/
+  .project-head {
+    display: flex;
+    justify-content: center;
+    margin: 2.1em 0em 0.5em 0em;
+    font-size: 1.6em;
+    font-weight: bold
+  }
+
+
+  /*project cards*/
+  .card-all {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    
+
+    
+  }
+  
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20em;
+    height: auto;
+    margin-top: 2em;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 1em 16px;
+    
+  }
+  .container > p {
+    color: rgb(138, 138, 138);
+    font-weight: 400;
+
+  }
+
+  .card-tech {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    padding: 1em 0em;
+  }
+
+  .tool-text {
+    background-color:#797979;
+    color: #000000;
+    border-radius: 5px;
+    padding: 1px 10px 1px;
+    font-size: small;
+    
+  }
+
+  .live-link {
+    display: flex;
+    gap: 1em;
+    font-weight: bold;
+    font-size: 0.8em;
+    
+
+  }
+  .live-link1:hover {
+    color: #08b43c;
+  }
+  .live-link2:hover {
+    color: #08b43c;
+  }
+  
+           /*Get in touch*/
+  
+  .hire-all {
+    padding: 2em;
+    margin-top: 3em;
+  }
+
+  
+  
+  .hire-me {
+    color: #08b43c;
+  }
+
+  .collab {
+    font-size: 2em;
+    font-weight: bolder;
+  }
+
+  .hire-sub {
+    color: #8f8c8c;
+    font-size: medium;
+    width: 30em;
+    padding-right: 1em;
+    
+  }
+
+    /*Scrool to the top button*/
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #3333332a;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+      
+    }
+    #scroll-top {
+      color: #08b43c;
+    }
+    
+    #myBtn:hover {
+      background-color: #33333350;
+    }
+    
+      /*Footer section*/
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #252525;
+    margin-top: 5em;
+  }    
+
+  .footer-nav1 {
+    font-size: small;
+    display: flex;
+    gap: 0.5em;
+  }
+  .copy {
+    color: #8f8c8c;
+  }
+
+  .footer-nav2 {
+    display: flex;
+    gap: 2em;
+  }
   
 
     
@@ -342,11 +503,12 @@ input[type=checkbox]{
     
     .hero {
       align-items: center;
-      gap: 0.5em;
+      gap: 0.2em;
     }
 
     .h1font {
       font-size: 2.3em;
+      
     }
 
     .self {
@@ -411,6 +573,10 @@ input[type=checkbox]{
       font-size: 1em;
       font-weight: bold;
     }
+
+    .card-all {
+      justify-content: center;
+    }
   
   }
   
@@ -471,6 +637,7 @@ input[type=checkbox]{
   #social-end {
     display: block;
   }
+  
   
 
   }

@@ -284,9 +284,12 @@ html {
   .project-head {
     display: flex;
     justify-content: center;
-    margin: 2.1em 0em 0.5em 0em;
+    padding: 2.1em 0em 0.5em 0em;
     font-size: 1.6em;
-    font-weight: bold
+    font-weight: bold;
+    background-color: #252525;
+    margin-top: 3em;
+    
   }
 
 
@@ -296,17 +299,18 @@ html {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 2em;
-    
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    background-color: #252525;
+    padding-bottom: 5em;
 
     
   }
   
 
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.596);
     transition: 0.3s;
     width: 20em;
     height: auto;
@@ -314,9 +318,7 @@ html {
     
   }
   
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+  
   
   .container {
     padding: 1em 16px;
@@ -416,8 +418,8 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background-color: #252525;
-    margin-top: 5em;
+    background-color: #0c0c0c;
+    
   }    
 
   .footer-nav1 {

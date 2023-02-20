@@ -387,10 +387,10 @@ html {
 
     /*Scrool to the top button*/
     #myBtn {
-      display: none;
+      
       position: fixed;
-      bottom: 30px;
-      right: 30px;
+      bottom: 2em;
+      right: 2em;
       z-index: 99;
       font-size: 18px;
       border: none;
@@ -407,7 +407,7 @@ html {
     }
     
     #myBtn:hover {
-      background-color: #33333350;
+      background-color: #3333332a;
     }
     
       /*Footer section*/

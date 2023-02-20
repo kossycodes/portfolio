@@ -412,7 +412,7 @@ html {
     
       /*Footer section*/
   
-  footer {
+  .footer-all {
     display: flex;
     justify-content: space-between;
     padding: 1em;

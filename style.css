@@ -294,7 +294,7 @@ html {
   /*project cards*/
   .card-all {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 1em;
     padding-left: 2em;

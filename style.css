@@ -19,6 +19,8 @@ html {
   color: white;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
   }
   
   a {
@@ -208,6 +210,8 @@ html {
     align-items: center;
     gap: 0.8em;
     color: #d1d1d1;
+    
+
   }
 
   h2 {
@@ -220,6 +224,9 @@ html {
     font-size: medium;
     line-height: 1.9em;
     text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    
     
     
     
